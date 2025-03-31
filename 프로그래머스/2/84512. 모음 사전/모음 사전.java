@@ -10,7 +10,6 @@ class Solution {
         map.put("I", 2);
         map.put("O", 3);
         map.put("U", 4);
-        
         String[] words = word.split("");
         for(int i = 0; i < words.length; i++) {
             answer += 1 + map.get(words[i])*nums[i];
